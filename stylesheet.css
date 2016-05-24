@@ -4,6 +4,10 @@
 div {
 	border-radius:5px;
 }
+
+body {
+    background-color:#C4C4C4;
+}
 #header {
 	z-index:1;
 	position:fixed;
@@ -35,12 +39,12 @@ div {
 
 .menu_button {
     border-radius:5px;
-    background-color:#c4c4c4;
+    background-color:#A6A6A6;
     width:9%;
     height:25px;
     position:fixed;
     margin-top:10px;
-    margin-left:10px;
+    margin-left:0.5%;
     text-align:center;
 }
 
@@ -93,7 +97,13 @@ h1 {
     padding-right:8%;
 }
 h2 {
+    font-family:Verdana, sans-serif;
     font-variant:small-caps;
+    padding-left:30px;
+}
+
+h3 {
+    font-family:Verdana, sans-serif;
     padding-left:30px;
 }
 
