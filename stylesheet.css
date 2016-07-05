@@ -18,15 +18,10 @@ body {
 	margin-bottom:10px;
 }
 
-.left {
-	position:relative;
-	float:left;
-	margin-top:50px;
-	width:10%;
-	height:2000px;
-	background-color:#B3D9FF;
-	margin-bottom:10px;
+#header a:hover {
+	font-weight:bold;
 }
+
 .right {
 	position:relative;
 	margin-top:50px;
@@ -37,23 +32,61 @@ body {
 	margin-bottom:10px;
 }
 
-.menu_button {
-    border-radius:5px;
-    background-color:#A6A6A6;
-    width:9%;
-    height:25px;
-    position:fixed;
+#nav-wrapper {
+	position:relative;
+	float:left;
+	margin-top:50px;
+	width:10%;
+	height:2000px;
+	background-color:#B3D9FF;
+	margin-bottom:10px;
+}
+
+#nav-container ul {
+    padding:0;
+    margin:0;
+    list-style:none;
+    width:100%;
+}
+
+#nav-container ul li {
+    display:table;
+    margin:auto;
     margin-top:10px;
-    margin-left:0.5%;
-    text-align:center;
+    margin-bottom:10px;
+    width:50%;
+
 }
 
-.menu_button a {
-    color:white;
-    font-family:Verdana, sans-serif;
+#nav-container ul li a {
     text-decoration:none;
+    text-align:center;
+    display:table-cell;
+    height:25px;
+    color:white;
+    background-color:#A6A6A6;
+    border-radius:5px;
+    font-family:Verdana, sans-serif;
+
 }
 
+/*
+#nav-container ul li a:hover {
+    font-weight:bold;
+    background-color:#A6A6A6;
+}
+*/
+
+#projects:hover {
+
+}
+#show-projects-menu {
+    position:relative;
+    background-color:#C4C4C4;
+    color:white;
+    z-index:9999;
+    display:none;
+}
 #footer {
 	position:relative;
 	height:50px;
@@ -123,10 +156,6 @@ li {
 	font-size:24px;
 	font-family: Verdana, sans-serif;
 	color:white;
-}	
-
-a:hover {
-	font-weight:bold;
 }
 
 table {
@@ -141,35 +170,3 @@ th, td {
     width:23%;
 }
 
-#thumbwrap {
-	position:relative;
-	margin:5px auto;
-	width:150px;
-	height:150px;
-}
-.thumb img {
-    position:relative;
-	border:1px solid #555;
-	margin-top:5px;
-	margin-left:4px;
-	width:95%;
-    height:150px;
-}
-.thumb span {
-	position:absolute;
-	visibility:hidden;
-}
-.thumb:hover {
-    text-decoration:none;
-    width:750%;
-	height:750%;
-}
-
-.thumb:hover span {
-	visibility:visible;
-	top:0;
-	left:125%;
-	width:750px;
-	height:750px;
-	z-index:1;
-}
