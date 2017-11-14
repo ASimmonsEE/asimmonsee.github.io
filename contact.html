@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheets/stylesheet.css"/>
+		<link type="text/css" rel="stylesheet" href="stylesheets/grid.css"/>
+		<title>GT Engineering, LLC // Home</title>
+	</head>
+	<body>
+		<header class="container">
+			<div class="row">
+				<div class="col-6"><img src="images/gte-logo.jpg" width="100px"></div>
+				<div class="col-6">
+					<div class="button"><a href="contact.html">Contact Us</a></div>
+				</div>
+			</div>
+			<div class="row">
+				<nav class="col-12">
+					<div class="button"><a href="index.html">Home</a></div>
+					<div class="button"><a href="about.html">About</a></div>
+					<div class="button"><a href="projects.html">Projects</a></div>
+					<div class="button"><a href="services.html">Services</a></div>
+					<div class="button"><a href="gallery.html">Gallery</a></div>
+				</nav>
+			</div>
+		</header>
+		<section class="container" >
+			<div class="row">
+				<div class="col-5">
+					<h4 id="withBorder">Consider GT Engineering, LLC for your next I&E design project or power system study needs.  Fill out the form below to get started.</h4>
+					<br>
+					<br>
+					<form action="script/submitForm.php" method="post" name="contactForm">
+					<fieldset>
+						<legend>Contact Information</legend>
+						<label>Name:</label><br>
+						<input type="text" name="name"><br>
+						<label>Telephone:</label><br>
+						<input type="text" name="phone"><br>
+						<label>Email</label><br>
+						<input type="text" name="email"><br>
+					</fieldset>
+					<fieldset>
+						<legend>Message</legend>
+						<textarea rows=10 name="message"></textarea>
+					</fieldset>	
+					<br>					
+					<input type="submit" align="center" value="Send">
+					</form>
+				</div>
+				<div class="col-7">
+					<img src="images/480V-MCC-1.jpg" width="100%">
+				</div>
+			</div>
+		</section>
+		<footer class="container">
+			<div class="row">
+				<div class="col-12">
+					GT Engineering, LLC<br>
+					Firm # XXX<br>
+					15711 E. Astern<br>
+					Crosby, TX 00000<br>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
